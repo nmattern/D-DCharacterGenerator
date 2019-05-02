@@ -1,0 +1,15 @@
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\bin\Debug\DnDCharacterGenerator.exe.config
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\bin\Debug\DnDCharacterGenerator.exe
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\bin\Debug\DnDCharacterGenerator.pdb
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.csprojAssemblyReference.cache
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.Form1.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.Properties.Resources.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.csproj.GenerateResource.cache
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.csproj.CoreCompileInputs.cache
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.exe
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.pdb
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.IntroductionScreen.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.RaceSelectionScreen.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.BackgroundSelectionScreen.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.ClassSelectionScreencs.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.AlignmentSelectionScreen.resources

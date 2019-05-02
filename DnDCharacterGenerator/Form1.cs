@@ -16,5 +16,27 @@ namespace DnDCharacterGenerator
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoadImageButton_Click(object sender, EventArgs e)
+        {
+            if (OpenCharacterImageDialog.ShowDialog() == DialogResult.OK)
+            {
+                CharacterImagePictureBox.Image = Image.FromFile(OpenCharacterImageDialog.FileName);
+            }
+        }
+
+        private void StartOverButton_Click(object sender, EventArgs e)
+        {
+            var introductionScreenForm = new IntroductionScreen();
+            introductionScreenForm.Show();
+            introductionScreenForm.Location = this.Location;
+            this.Hide();
+            introductionScreenForm.FormClosed += (s, args) => this.Close();
+        }
     }
 }
