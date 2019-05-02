@@ -35,7 +35,7 @@
             this.IntroductionScreenButton = new System.Windows.Forms.Button();
             this.RacePictureImageBox = new System.Windows.Forms.PictureBox();
             this.RaceDescriptionLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.RaceDescriptionTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.RacePictureImageBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,21 +104,21 @@
             this.RaceDescriptionLabel.TabIndex = 8;
             this.RaceDescriptionLabel.Text = "Description of race";
             // 
-            // textBox1
+            // RaceDescriptionTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(365, 102);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(423, 260);
-            this.textBox1.TabIndex = 9;
+            this.RaceDescriptionTextBox.Location = new System.Drawing.Point(365, 102);
+            this.RaceDescriptionTextBox.Multiline = true;
+            this.RaceDescriptionTextBox.Name = "RaceDescriptionTextBox";
+            this.RaceDescriptionTextBox.ReadOnly = true;
+            this.RaceDescriptionTextBox.Size = new System.Drawing.Size(423, 260);
+            this.RaceDescriptionTextBox.TabIndex = 9;
             // 
             // RaceSelectionScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.RaceDescriptionTextBox);
             this.Controls.Add(this.RaceDescriptionLabel);
             this.Controls.Add(this.RacePictureImageBox);
             this.Controls.Add(this.IntroductionScreenButton);
@@ -144,6 +144,6 @@
         private System.Windows.Forms.Button IntroductionScreenButton;
         private System.Windows.Forms.PictureBox RacePictureImageBox;
         private System.Windows.Forms.Label RaceDescriptionLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox RaceDescriptionTextBox;
     }
 }

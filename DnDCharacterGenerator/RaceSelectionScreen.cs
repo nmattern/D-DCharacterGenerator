@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace DnDCharacterGenerator
 {
@@ -43,6 +45,16 @@ namespace DnDCharacterGenerator
                 case 0:
                     {
                         RacePictureImageBox.ImageLocation = "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/468/150/150/636377891490355427.jpeg";
+                        RestClient rClient = new RestClient();
+                        rClient.endPoint = "http://dnd5eapi.co/api/races/1";
+
+                        debugOutput("Rest Client Created");
+                        string strResponse = string.Empty;
+
+                        strResponse = rClient.makeRequest();
+
+                        RaceDescriptionTextBox.Text = strResponse;
+                        debugOutput(strResponse);
                         break;
                     }
                 case 1:
@@ -99,6 +111,18 @@ namespace DnDCharacterGenerator
             ListOfRacesComboBox.Items.Add("Half-Elf");
             ListOfRacesComboBox.Items.Add("Half-Orc");
             ListOfRacesComboBox.Items.Add("Tiefling");
+        }
+
+        private void debugOutput(string strDebugText)
+        {
+            try
+            {
+                System.Diagnostics.Debug.Write(strDebugText + Environment.NewLine);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Write(ex.Message, ToString() + Environment.NewLine);
+            }
         }
     }
 }
