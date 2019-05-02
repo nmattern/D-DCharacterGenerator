@@ -17,9 +17,9 @@ namespace DnDCharacterGenerator
             InitializeComponent();
         }
 
-        private void AlignmentSelectionScreenButton_Click(object sender, EventArgs e)
+        private void RaceSelectionScreenButton_Click(object sender, EventArgs e)
         {
-            var alignmentSelectionScreenForm = new AlignmentSelectionScreen();
+            var alignmentSelectionScreenForm = new RaceSelectionScreen();
             alignmentSelectionScreenForm.Show();
             alignmentSelectionScreenForm.Location = this.Location;
             this.Hide();

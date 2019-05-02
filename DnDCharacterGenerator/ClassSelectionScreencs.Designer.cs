@@ -31,7 +31,7 @@
             this.LoadClassButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.RaceDescriptionLabel = new System.Windows.Forms.Label();
-            this.AlignmentSelectionScreenButton = new System.Windows.Forms.Button();
+            this.RaceSelectionScreenButton = new System.Windows.Forms.Button();
             this.Form1Button = new System.Windows.Forms.Button();
             this.SelectAClassLabel = new System.Windows.Forms.Label();
             this.ListOfClassesComboBox = new System.Windows.Forms.ComboBox();
@@ -65,15 +65,15 @@
             this.RaceDescriptionLabel.TabIndex = 17;
             this.RaceDescriptionLabel.Text = "Description of class";
             // 
-            // AlignmentSelectionScreenButton
+            // RaceSelectionScreenButton
             // 
-            this.AlignmentSelectionScreenButton.Location = new System.Drawing.Point(12, 417);
-            this.AlignmentSelectionScreenButton.Name = "AlignmentSelectionScreenButton";
-            this.AlignmentSelectionScreenButton.Size = new System.Drawing.Size(173, 23);
-            this.AlignmentSelectionScreenButton.TabIndex = 15;
-            this.AlignmentSelectionScreenButton.Text = "Go back to alignment selection";
-            this.AlignmentSelectionScreenButton.UseVisualStyleBackColor = true;
-            this.AlignmentSelectionScreenButton.Click += new System.EventHandler(this.AlignmentSelectionScreenButton_Click);
+            this.RaceSelectionScreenButton.Location = new System.Drawing.Point(12, 417);
+            this.RaceSelectionScreenButton.Name = "RaceSelectionScreenButton";
+            this.RaceSelectionScreenButton.Size = new System.Drawing.Size(173, 23);
+            this.RaceSelectionScreenButton.TabIndex = 15;
+            this.RaceSelectionScreenButton.Text = "Go back to race selection";
+            this.RaceSelectionScreenButton.UseVisualStyleBackColor = true;
+            this.RaceSelectionScreenButton.Click += new System.EventHandler(this.RaceSelectionScreenButton_Click);
             // 
             // Form1Button
             // 
@@ -120,7 +120,7 @@
             this.Controls.Add(this.LoadClassButton);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.RaceDescriptionLabel);
-            this.Controls.Add(this.AlignmentSelectionScreenButton);
+            this.Controls.Add(this.RaceSelectionScreenButton);
             this.Controls.Add(this.Form1Button);
             this.Controls.Add(this.SelectAClassLabel);
             this.Controls.Add(this.ListOfClassesComboBox);
@@ -137,7 +137,7 @@
         private System.Windows.Forms.Button LoadClassButton;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label RaceDescriptionLabel;
-        private System.Windows.Forms.Button AlignmentSelectionScreenButton;
+        private System.Windows.Forms.Button RaceSelectionScreenButton;
         private System.Windows.Forms.Button Form1Button;
         private System.Windows.Forms.Label SelectAClassLabel;
         private System.Windows.Forms.ComboBox ListOfClassesComboBox;

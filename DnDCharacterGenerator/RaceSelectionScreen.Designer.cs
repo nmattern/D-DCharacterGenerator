@@ -31,7 +31,7 @@
             this.RaceSelectionGreetingLabel = new System.Windows.Forms.Label();
             this.ListOfRacesComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.BackgroundSelectionScreenButton = new System.Windows.Forms.Button();
+            this.ClassSelectionScreenButton = new System.Windows.Forms.Button();
             this.IntroductionScreenButton = new System.Windows.Forms.Button();
             this.RacePictureImageBox = new System.Windows.Forms.PictureBox();
             this.RaceDescriptionLabel = new System.Windows.Forms.Label();
@@ -67,15 +67,15 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Select a Race below";
             // 
-            // BackgroundSelectionScreenButton
+            // ClassSelectionScreenButton
             // 
-            this.BackgroundSelectionScreenButton.Location = new System.Drawing.Point(615, 415);
-            this.BackgroundSelectionScreenButton.Name = "BackgroundSelectionScreenButton";
-            this.BackgroundSelectionScreenButton.Size = new System.Drawing.Size(173, 23);
-            this.BackgroundSelectionScreenButton.TabIndex = 5;
-            this.BackgroundSelectionScreenButton.Text = "Continue to background selection";
-            this.BackgroundSelectionScreenButton.UseVisualStyleBackColor = true;
-            this.BackgroundSelectionScreenButton.Click += new System.EventHandler(this.BackgroundSelectionScreenButton_Click);
+            this.ClassSelectionScreenButton.Location = new System.Drawing.Point(615, 415);
+            this.ClassSelectionScreenButton.Name = "ClassSelectionScreenButton";
+            this.ClassSelectionScreenButton.Size = new System.Drawing.Size(173, 23);
+            this.ClassSelectionScreenButton.TabIndex = 5;
+            this.ClassSelectionScreenButton.Text = "Continue to class selection";
+            this.ClassSelectionScreenButton.UseVisualStyleBackColor = true;
+            this.ClassSelectionScreenButton.Click += new System.EventHandler(this.ClassSelectionScreenButton_Click);
             // 
             // IntroductionScreenButton
             // 
@@ -123,7 +123,7 @@
             this.Controls.Add(this.RaceDescriptionLabel);
             this.Controls.Add(this.RacePictureImageBox);
             this.Controls.Add(this.IntroductionScreenButton);
-            this.Controls.Add(this.BackgroundSelectionScreenButton);
+            this.Controls.Add(this.ClassSelectionScreenButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ListOfRacesComboBox);
             this.Controls.Add(this.RaceSelectionGreetingLabel);
@@ -141,7 +141,7 @@
         private System.Windows.Forms.Label RaceSelectionGreetingLabel;
         private System.Windows.Forms.ComboBox ListOfRacesComboBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button BackgroundSelectionScreenButton;
+        private System.Windows.Forms.Button ClassSelectionScreenButton;
         private System.Windows.Forms.Button IntroductionScreenButton;
         private System.Windows.Forms.PictureBox RacePictureImageBox;
         private System.Windows.Forms.Label RaceDescriptionLabel;

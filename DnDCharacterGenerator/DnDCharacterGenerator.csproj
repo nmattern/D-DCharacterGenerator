@@ -49,20 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alignment.cs" />
-    <Compile Include="AlignmentSelectionScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AlignmentSelectionScreen.Designer.cs">
-      <DependentUpon>AlignmentSelectionScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Background.cs" />
-    <Compile Include="BackgroundSelectionScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BackgroundSelectionScreen.Designer.cs">
-      <DependentUpon>BackgroundSelectionScreen.cs</DependentUpon>
-    </Compile>
     <Compile Include="Class.cs" />
     <Compile Include="ClassSelectionScreencs.cs">
       <SubType>Form</SubType>
@@ -94,12 +80,6 @@
       <DependentUpon>RaceSelectionScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="RestClient.cs" />
-    <EmbeddedResource Include="AlignmentSelectionScreen.resx">
-      <DependentUpon>AlignmentSelectionScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BackgroundSelectionScreen.resx">
-      <DependentUpon>BackgroundSelectionScreen.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ClassSelectionScreencs.resx">
       <DependentUpon>ClassSelectionScreencs.cs</DependentUpon>
     </EmbeddedResource>

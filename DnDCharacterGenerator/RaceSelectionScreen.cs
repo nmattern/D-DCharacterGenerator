@@ -30,9 +30,9 @@ namespace DnDCharacterGenerator
             introductionSelectionScreenForm.FormClosed += (s, args) => this.Close();
         }
 
-        private void BackgroundSelectionScreenButton_Click(object sender, EventArgs e)
+        private void ClassSelectionScreenButton_Click(object sender, EventArgs e)
         {
-            var backgroundSelectionScreenForm = new BackgroundSelectionScreen();
+            var backgroundSelectionScreenForm = new ClassSelectionScreencs();
             backgroundSelectionScreenForm.Show();
             backgroundSelectionScreenForm.Location = this.Location;
             this.Hide();
