@@ -12,6 +12,13 @@ namespace DnDCharacterGenerator
 {
     public partial class Form1 : Form
     {
+        private string _CharacterName;
+        public string CharacterName
+        {
+            get { return _CharacterName; }
+            set { _CharacterName = value; }
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +26,7 @@ namespace DnDCharacterGenerator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            CharacterNameTextBox.Text = CharacterName;
         }
 
         private void LoadImageButton_Click(object sender, EventArgs e)

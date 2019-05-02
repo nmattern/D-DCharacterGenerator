@@ -90,6 +90,7 @@
             // 
             this.CharacterNameTextBox.Location = new System.Drawing.Point(110, 8);
             this.CharacterNameTextBox.Name = "CharacterNameTextBox";
+            this.CharacterNameTextBox.ReadOnly = true;
             this.CharacterNameTextBox.Size = new System.Drawing.Size(232, 20);
             this.CharacterNameTextBox.TabIndex = 3;
             // 
@@ -342,31 +343,31 @@
         private System.Windows.Forms.Button LoadImageButton;
         private System.Windows.Forms.PictureBox CharacterImagePictureBox;
         private System.Windows.Forms.Label ChracterNameLabel;
-        private System.Windows.Forms.TextBox CharacterNameTextBox;
-        private System.Windows.Forms.TextBox StrengthTextBox;
         private System.Windows.Forms.Label StrengthLabel;
-        private System.Windows.Forms.TextBox ConstitutionTextBox;
         private System.Windows.Forms.Label ConstitutionLabel;
-        private System.Windows.Forms.TextBox WisdomTextBox;
         private System.Windows.Forms.Label WisdomLabel;
-        private System.Windows.Forms.TextBox IntelligenceTextBox;
         private System.Windows.Forms.Label IntelligenceLabel;
-        private System.Windows.Forms.TextBox CharismaTextBox;
         private System.Windows.Forms.Label CharismaLabel;
-        private System.Windows.Forms.TextBox DexterityTextBox;
         private System.Windows.Forms.Label DexterityLabel;
         private System.Windows.Forms.Button StartOverButton;
         private System.Windows.Forms.Label RaceLabel;
         private System.Windows.Forms.OpenFileDialog OpenCharacterImageDialog;
-        private System.Windows.Forms.TextBox RaceTextBox;
-        private System.Windows.Forms.TextBox BackgroundTextBox;
         private System.Windows.Forms.Label BackgroundLabel;
-        private System.Windows.Forms.TextBox AlignmentTextBox;
         private System.Windows.Forms.Label AlignmentLabel;
-        private System.Windows.Forms.TextBox ClassTextBox;
         private System.Windows.Forms.Label ClassLabel;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label CharacterFeaturesLabel;
+        public System.Windows.Forms.TextBox CharacterNameTextBox;
+        public System.Windows.Forms.TextBox StrengthTextBox;
+        public System.Windows.Forms.TextBox ConstitutionTextBox;
+        public System.Windows.Forms.TextBox WisdomTextBox;
+        public System.Windows.Forms.TextBox IntelligenceTextBox;
+        public System.Windows.Forms.TextBox CharismaTextBox;
+        public System.Windows.Forms.TextBox DexterityTextBox;
+        public System.Windows.Forms.TextBox RaceTextBox;
+        public System.Windows.Forms.TextBox BackgroundTextBox;
+        public System.Windows.Forms.TextBox AlignmentTextBox;
+        public System.Windows.Forms.TextBox ClassTextBox;
+        public System.Windows.Forms.TextBox textBox1;
     }
 }
 

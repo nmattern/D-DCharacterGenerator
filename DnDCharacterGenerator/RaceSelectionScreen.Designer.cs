@@ -52,7 +52,7 @@
             // ListOfRacesComboBox
             // 
             this.ListOfRacesComboBox.FormattingEnabled = true;
-            this.ListOfRacesComboBox.Location = new System.Drawing.Point(70, 102);
+            this.ListOfRacesComboBox.Location = new System.Drawing.Point(17, 102);
             this.ListOfRacesComboBox.Name = "ListOfRacesComboBox";
             this.ListOfRacesComboBox.Size = new System.Drawing.Size(189, 21);
             this.ListOfRacesComboBox.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(107, 63);
+            this.label1.Location = new System.Drawing.Point(54, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 13);
             this.label1.TabIndex = 2;
@@ -89,7 +89,7 @@
             // 
             // RacePictureImageBox
             // 
-            this.RacePictureImageBox.Location = new System.Drawing.Point(86, 165);
+            this.RacePictureImageBox.Location = new System.Drawing.Point(33, 165);
             this.RacePictureImageBox.Name = "RacePictureImageBox";
             this.RacePictureImageBox.Size = new System.Drawing.Size(150, 150);
             this.RacePictureImageBox.TabIndex = 7;
@@ -98,7 +98,7 @@
             // RaceDescriptionLabel
             // 
             this.RaceDescriptionLabel.AutoSize = true;
-            this.RaceDescriptionLabel.Location = new System.Drawing.Point(527, 63);
+            this.RaceDescriptionLabel.Location = new System.Drawing.Point(464, 63);
             this.RaceDescriptionLabel.Name = "RaceDescriptionLabel";
             this.RaceDescriptionLabel.Size = new System.Drawing.Size(96, 13);
             this.RaceDescriptionLabel.TabIndex = 8;
@@ -106,11 +106,12 @@
             // 
             // RaceDescriptionTextBox
             // 
-            this.RaceDescriptionTextBox.Location = new System.Drawing.Point(365, 102);
+            this.RaceDescriptionTextBox.Location = new System.Drawing.Point(237, 102);
             this.RaceDescriptionTextBox.Multiline = true;
             this.RaceDescriptionTextBox.Name = "RaceDescriptionTextBox";
             this.RaceDescriptionTextBox.ReadOnly = true;
-            this.RaceDescriptionTextBox.Size = new System.Drawing.Size(423, 260);
+            this.RaceDescriptionTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.RaceDescriptionTextBox.Size = new System.Drawing.Size(551, 260);
             this.RaceDescriptionTextBox.TabIndex = 9;
             // 
             // RaceSelectionScreen

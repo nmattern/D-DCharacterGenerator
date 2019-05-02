@@ -13,3 +13,6 @@ C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGene
 C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.BackgroundSelectionScreen.resources
 C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.ClassSelectionScreencs.resources
 C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.AlignmentSelectionScreen.resources
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Dev\C#\DnDCharacterGenerator\DnDCharacterGenerator\obj\Debug\DnDCharacterGenerator.csproj.CopyComplete

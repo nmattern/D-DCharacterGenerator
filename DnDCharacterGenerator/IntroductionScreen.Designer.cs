@@ -33,7 +33,6 @@
             this.EnterNameLabel = new System.Windows.Forms.Label();
             this.CharacterNameTextBox = new System.Windows.Forms.TextBox();
             this.RaceSelectionScreenButton = new System.Windows.Forms.Button();
-            this.GenerateRandomCharacterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // GreetingLabel
@@ -81,21 +80,11 @@
             this.RaceSelectionScreenButton.UseVisualStyleBackColor = true;
             this.RaceSelectionScreenButton.Click += new System.EventHandler(this.RaceSelectionScreenButton_Click);
             // 
-            // GenerateRandomCharacterButton
-            // 
-            this.GenerateRandomCharacterButton.Location = new System.Drawing.Point(311, 239);
-            this.GenerateRandomCharacterButton.Name = "GenerateRandomCharacterButton";
-            this.GenerateRandomCharacterButton.Size = new System.Drawing.Size(173, 23);
-            this.GenerateRandomCharacterButton.TabIndex = 5;
-            this.GenerateRandomCharacterButton.Text = "Generate a random character";
-            this.GenerateRandomCharacterButton.UseVisualStyleBackColor = true;
-            // 
             // IntroductionScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.GenerateRandomCharacterButton);
             this.Controls.Add(this.RaceSelectionScreenButton);
             this.Controls.Add(this.CharacterNameTextBox);
             this.Controls.Add(this.EnterNameLabel);
@@ -115,6 +104,5 @@
         private System.Windows.Forms.Label EnterNameLabel;
         private System.Windows.Forms.TextBox CharacterNameTextBox;
         private System.Windows.Forms.Button RaceSelectionScreenButton;
-        private System.Windows.Forms.Button GenerateRandomCharacterButton;
     }
 }
