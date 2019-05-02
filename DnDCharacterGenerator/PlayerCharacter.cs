@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DnDCharacterGenerator
 {
-    class PlayerCharacter
+    public static class PlayerCharacter
     {
+        public static string CharacterName;
+
+        public static string RaceText;
+
+        public static string ClassText;
     }
 }

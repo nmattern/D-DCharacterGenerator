@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LoadClassButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ClassDescriptionTextBox = new System.Windows.Forms.TextBox();
             this.RaceDescriptionLabel = new System.Windows.Forms.Label();
             this.RaceSelectionScreenButton = new System.Windows.Forms.Button();
             this.Form1Button = new System.Windows.Forms.Button();
@@ -38,28 +37,19 @@
             this.ClassSelectionGreetingLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LoadClassButton
+            // ClassDescriptionTextBox
             // 
-            this.LoadClassButton.Location = new System.Drawing.Point(96, 138);
-            this.LoadClassButton.Name = "LoadClassButton";
-            this.LoadClassButton.Size = new System.Drawing.Size(128, 23);
-            this.LoadClassButton.TabIndex = 19;
-            this.LoadClassButton.Text = "Load Class Details";
-            this.LoadClassButton.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(365, 104);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(423, 260);
-            this.textBox1.TabIndex = 18;
+            this.ClassDescriptionTextBox.Location = new System.Drawing.Point(280, 104);
+            this.ClassDescriptionTextBox.Multiline = true;
+            this.ClassDescriptionTextBox.Name = "ClassDescriptionTextBox";
+            this.ClassDescriptionTextBox.ReadOnly = true;
+            this.ClassDescriptionTextBox.Size = new System.Drawing.Size(508, 260);
+            this.ClassDescriptionTextBox.TabIndex = 18;
             // 
             // RaceDescriptionLabel
             // 
             this.RaceDescriptionLabel.AutoSize = true;
-            this.RaceDescriptionLabel.Location = new System.Drawing.Point(527, 65);
+            this.RaceDescriptionLabel.Location = new System.Drawing.Point(479, 75);
             this.RaceDescriptionLabel.Name = "RaceDescriptionLabel";
             this.RaceDescriptionLabel.Size = new System.Drawing.Size(99, 13);
             this.RaceDescriptionLabel.TabIndex = 17;
@@ -88,7 +78,7 @@
             // SelectAClassLabel
             // 
             this.SelectAClassLabel.AutoSize = true;
-            this.SelectAClassLabel.Location = new System.Drawing.Point(33, 65);
+            this.SelectAClassLabel.Location = new System.Drawing.Point(8, 65);
             this.SelectAClassLabel.Name = "SelectAClassLabel";
             this.SelectAClassLabel.Size = new System.Drawing.Size(287, 13);
             this.SelectAClassLabel.TabIndex = 13;
@@ -97,10 +87,11 @@
             // ListOfClassesComboBox
             // 
             this.ListOfClassesComboBox.FormattingEnabled = true;
-            this.ListOfClassesComboBox.Location = new System.Drawing.Point(70, 104);
+            this.ListOfClassesComboBox.Location = new System.Drawing.Point(45, 104);
             this.ListOfClassesComboBox.Name = "ListOfClassesComboBox";
             this.ListOfClassesComboBox.Size = new System.Drawing.Size(189, 21);
             this.ListOfClassesComboBox.TabIndex = 12;
+            this.ListOfClassesComboBox.SelectedIndexChanged += new System.EventHandler(this.ListOfClassesComboBox_SelectedIndexChanged);
             // 
             // ClassSelectionGreetingLabel
             // 
@@ -117,8 +108,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.LoadClassButton);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ClassDescriptionTextBox);
             this.Controls.Add(this.RaceDescriptionLabel);
             this.Controls.Add(this.RaceSelectionScreenButton);
             this.Controls.Add(this.Form1Button);
@@ -127,15 +117,14 @@
             this.Controls.Add(this.ClassSelectionGreetingLabel);
             this.Name = "ClassSelectionScreencs";
             this.Text = "ClassSelectionScreencs";
+            this.Load += new System.EventHandler(this.ClassSelectionScreencs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button LoadClassButton;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox ClassDescriptionTextBox;
         private System.Windows.Forms.Label RaceDescriptionLabel;
         private System.Windows.Forms.Button RaceSelectionScreenButton;
         private System.Windows.Forms.Button Form1Button;

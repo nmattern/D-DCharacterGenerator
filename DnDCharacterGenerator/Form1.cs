@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,21 +13,16 @@ namespace DnDCharacterGenerator
 {
     public partial class Form1 : Form
     {
-        private string _CharacterName;
-        public string CharacterName
-        {
-            get { return _CharacterName; }
-            set { _CharacterName = value; }
-        }
-
         public Form1()
         {
             InitializeComponent();
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            CharacterNameTextBox.Text = CharacterName;
+            FinalCharacterNameTextBox.Text = PlayerCharacter.CharacterName;
+            FinalCharacterDescriptionTextBox.Text += PlayerCharacter.RaceText + "\r\n" + PlayerCharacter.ClassText;
         }
 
         private void LoadImageButton_Click(object sender, EventArgs e)

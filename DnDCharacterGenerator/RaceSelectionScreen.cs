@@ -32,6 +32,7 @@ namespace DnDCharacterGenerator
 
         private void ClassSelectionScreenButton_Click(object sender, EventArgs e)
         {
+            PlayerCharacter.RaceText = RaceDescriptionTextBox.Text;
             var backgroundSelectionScreenForm = new ClassSelectionScreencs();
             backgroundSelectionScreenForm.Show();
             backgroundSelectionScreenForm.Location = this.Location;
@@ -64,8 +65,7 @@ namespace DnDCharacterGenerator
                         int incrementer = 0; 
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
+
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus= raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -138,8 +138,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -208,8 +206,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -278,8 +274,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -348,8 +342,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -418,8 +410,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -488,8 +478,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -558,8 +546,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -628,8 +614,6 @@ namespace DnDCharacterGenerator
                         int incrementer = 0;
                         foreach (var num in raceInfo.ability_bonuses)
                         {
-                            debugOutput(num.ToString());
-                            debugOutput(raceInfo.ability_bonuses[incrementer].ToString());
                             if (incrementer == 0) { race.StrengthRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 1) { race.DexterityRaceBonus = raceInfo.ability_bonuses[incrementer]; }
                             else if (incrementer == 2) { race.ConstitutionRaceBonus = raceInfo.ability_bonuses[incrementer]; }
@@ -704,6 +688,11 @@ namespace DnDCharacterGenerator
             {
                 System.Diagnostics.Debug.Write(ex.Message, ToString() + Environment.NewLine);
             }
+        }
+
+        public string RaceText
+        {
+            get { return this.RaceDescriptionTextBox.Text; }
         }
     }
 }

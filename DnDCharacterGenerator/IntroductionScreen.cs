@@ -20,8 +20,7 @@ namespace DnDCharacterGenerator
 
         private void RaceSelectionScreenButton_Click(object sender, EventArgs e)
         {
-            Form1 finalform = new Form1();
-            finalform.CharacterName = CharacterNameTextBox.Text;
+            PlayerCharacter.CharacterName = CharacterNameTextBox.Text;
             var raceSelectionScreenForm = new RaceSelectionScreen();
             raceSelectionScreenForm.Show();
             raceSelectionScreenForm.Location = this.Location;
@@ -29,4 +28,5 @@ namespace DnDCharacterGenerator
             raceSelectionScreenForm.FormClosed += (s, args) => this.Close();
         }
     }
+
 }

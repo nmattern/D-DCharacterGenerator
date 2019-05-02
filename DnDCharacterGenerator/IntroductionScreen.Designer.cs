@@ -102,7 +102,7 @@
         private System.Windows.Forms.Label GreetingLabel;
         private System.Windows.Forms.Label IntroductionExplanationLabel;
         private System.Windows.Forms.Label EnterNameLabel;
-        private System.Windows.Forms.TextBox CharacterNameTextBox;
         private System.Windows.Forms.Button RaceSelectionScreenButton;
+        public System.Windows.Forms.TextBox CharacterNameTextBox;
     }
 }
